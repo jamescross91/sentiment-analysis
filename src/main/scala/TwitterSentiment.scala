@@ -13,10 +13,6 @@ object TwitterSentiment {
 
     val spark = SparkSession.builder.config(conf).getOrCreate()
 
-    val windowLength = new Duration(5 * 1000)
-    val outputDirectory = "/twitter"
-    var num = 0
-
     val ssc = new StreamingContext(spark.sparkContext, Seconds(1))
     // Create a Twitter Stream for the input source.
     val auth = Some(new OAuthAuthorization(new ConfigurationBuilder().build()))
