@@ -1,6 +1,6 @@
 # Spark Twitter Sentiment Analysis
 
-Uses Stamford CoreNLP and Spark Streaming to Analyse tweets from Twitters API.
+Uses Stamford CoreNLP and Spark Streaming to analyse tweets from Twitters API.
 
 ## Running
 Expects following system properties:
