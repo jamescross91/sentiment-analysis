@@ -12,3 +12,6 @@ Expects following system properties:
 ```
 
 Which can be obtained by creating a new app on the twitter developer portal.
+
+## Hashtag Filters
+Change the line `val twitterStream = TwitterUtils.createStream(ssc, auth, Array("#stormdoris"))` in  `src/main/scala/TwitterSentiment.scala` to include a list of interesting hashtags to process.
