@@ -18,6 +18,7 @@ libraryDependencies ++= Seq(
   "org.apache.bahir" % "spark-streaming-twitter_2.11" % "2.0.2",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0" classifier "models",
-  "databricks" % "spark-corenlp" % "0.2.0-s_2.11"
+  "databricks" % "spark-corenlp" % "0.2.0-s_2.11",
+  "com.datastax.spark" % "spark-cassandra-connector_2.11" % "2.0.0-RC1"
 )
     
